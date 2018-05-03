@@ -14,6 +14,8 @@
 		C0A44D43209B7537006A63D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A44D41209B7537006A63D0 /* LaunchScreen.storyboard */; };
 		C0A44D4E209B7537006A63D0 /* PrimerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A44D4D209B7537006A63D0 /* PrimerAppTests.swift */; };
 		C0A44D59209B7537006A63D0 /* PrimerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A44D58209B7537006A63D0 /* PrimerAppUITests.swift */; };
+		C0A44D67209B77C0006A63D0 /* DosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A44D66209B77C0006A63D0 /* DosViewController.swift */; };
+		C0A44D69209B8B60006A63D0 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A44D68209B8B5F006A63D0 /* close.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C0A44D54209B7537006A63D0 /* PrimerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A44D58209B7537006A63D0 /* PrimerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimerAppUITests.swift; sourceTree = "<group>"; };
 		C0A44D5A209B7537006A63D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A44D66209B77C0006A63D0 /* DosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosViewController.swift; sourceTree = "<group>"; };
+		C0A44D68209B8B5F006A63D0 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 				C0A44D3A209B7537006A63D0 /* ViewController.swift */,
 				C0A44D3C209B7537006A63D0 /* Main.storyboard */,
 				C0A44D3F209B7537006A63D0 /* Assets.xcassets */,
+				C0A44D68209B8B5F006A63D0 /* close.png */,
 				C0A44D41209B7537006A63D0 /* LaunchScreen.storyboard */,
 				C0A44D44209B7537006A63D0 /* Info.plist */,
+				C0A44D66209B77C0006A63D0 /* DosViewController.swift */,
 			);
 			path = PrimerApp;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				C0A44D43209B7537006A63D0 /* LaunchScreen.storyboard in Resources */,
 				C0A44D40209B7537006A63D0 /* Assets.xcassets in Resources */,
+				C0A44D69209B8B60006A63D0 /* close.png in Resources */,
 				C0A44D3E209B7537006A63D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A44D67209B77C0006A63D0 /* DosViewController.swift in Sources */,
 				C0A44D3B209B7537006A63D0 /* ViewController.swift in Sources */,
 				C0A44D39209B7537006A63D0 /* AppDelegate.swift in Sources */,
 			);
